@@ -9,7 +9,7 @@ const studentRouter = require("./routes/studentRouter");
 
 // const {mongoURI} = require('./keys')
 
-const mongoURI = "mongodb://localhost:27017/EdTech";
+const mongoURI = "mongodb+srv://edtech:TXBxajb_3F7kCG*@cluster0.b52ny.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 const app = express();
 
 app.use(
